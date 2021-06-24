@@ -31,4 +31,5 @@ void main(int argc, char **argv){
     read(fd_in, buf, fileSize);
     buf[fileSize] = '\0';
     write(fd_out, buf, fileSize);
+    
 }
